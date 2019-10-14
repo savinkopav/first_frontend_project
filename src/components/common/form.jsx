@@ -76,7 +76,6 @@ class Form extends Component {
         <Input
             name={name}
             value={data[name]}
-            //account={data[name]}
             label={label}
             type={type}
             onChange={this.handleChange}

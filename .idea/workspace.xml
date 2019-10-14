@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2405c389-fb20-4be4-b58e-222c849d82fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/fakeMovieService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/fakeMovieService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/notFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notFound.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,8 @@
       <workItem from="1570629213084" duration="16952000" />
       <workItem from="1570717863067" duration="1899000" />
       <workItem from="1570720634298" duration="10284000" />
-      <workItem from="1570805439428" duration="2651000" />
+      <workItem from="1570805439428" duration="13122000" />
+      <workItem from="1571070482920" duration="5383000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ class App extends Component {
                 <Route path="/movies" component={Movies}/>
                 <Route path="/customers" component={Customers}/>
                 <Route path="/rentals" component={Rentals}/>
-                <Redirect from="/" exact to="/movies"/>
+                <Redirect from="/" exact to="movies"/>
                 <Redirect to="/not-found"/>
             </Switch>
             </main>
