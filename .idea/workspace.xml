@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2405c389-fb20-4be4-b58e-222c849d82fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/notFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/moviesTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/moviesTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registrationForm.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +24,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RTgT433agCevf3OSlBV2yAYwWb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../start/router-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React_js/my-app/node-app/project/vidly" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +78,11 @@
       <workItem from="1570717863067" duration="1899000" />
       <workItem from="1570720634298" duration="10284000" />
       <workItem from="1570805439428" duration="13122000" />
-      <workItem from="1571070482920" duration="5383000" />
+      <workItem from="1571070482920" duration="6591000" />
+      <workItem from="1571744061572" duration="10141000" />
+      <workItem from="1571754444012" duration="925000" />
+      <workItem from="1571832394429" duration="15201000" />
+      <workItem from="1571913300929" duration="17788000" />
     </task>
     <servers />
   </component>

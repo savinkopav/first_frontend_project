@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import { Link, NavLink } from "react-router-dom";
 
 class NavBar extends Component {
+
     render() {
+        const { user } = this.props;
         return (
                 <nav
                     className="navbar navbar-expand-lg navbar-light bg-light mb-4">
@@ -24,12 +26,26 @@ class NavBar extends Component {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/rentals">Rentals</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/login">Login</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/registration">Registration</NavLink>
-                            </li>
+                            {!user && (
+                                <React.Fragment>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/login">Login</NavLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/registration">Registration</NavLink>
+                                    </li>
+                                </React.Fragment>
+                            )}
+                            {user && (
+                                <React.Fragment>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/profile">{user.name} | {user.email}</NavLink>
+                                    </li>
+                                    <li className="nav-item mt-2">
+                                        <NavLink className="fa fa-sign-out fa-lg" to="/logout"></NavLink>
+                                    </li>
+                                </React.Fragment>
+                            )}
                         </ul>
                     </div>
                 </nav>
